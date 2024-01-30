@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xsi:noNamespaceSchemaLocation="/home/dam/LND/xsd/Alumno.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<profesor>
+		<nombre>Juan</nombre>
+	</profesor>
+	<alumno>
+		<nombre>Juan</nombre>
+		<edad>23</edad>
+		<nota>8.5</nota>
+		<nota>3</nota>
+		<nota>7</nota>
+		<telefono>696342147</telefono>
+	</alumno>
+</alumnos>

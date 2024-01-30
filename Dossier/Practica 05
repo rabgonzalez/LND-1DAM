@@ -1,0 +1,1 @@
+Poner 2 etiquetas de autor da error debido a que en la dtd interna debemos de agregar un + en las etiquetas de autor, si no no se pueden repetir etiquetas

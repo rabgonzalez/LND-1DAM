@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Fri Oct 06 19:14:20 WEST 2023 -->
+
+
+<!DOCTYPE mensaje SYSTEM “Practica22.dtd”>
+<mensaje>
+<autor> “Rubén” </autor>
+<destinatarios> “Profesor LND” </destinatarios>
+<asunto> “Práctica 22” &yo; &curso; </asunto>
+</mensaje>
+

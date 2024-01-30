@@ -1,0 +1,7 @@
+1. Se esta definiendo el elemento LIBRO y tiene que tener los hijos: "Autor y Editorial"
+2. Se define el elemento Autor con información del ordenador
+3. Se define el elemento PELICULA y tiene que tener 1 o más entre estos hijos: "Actor o Actriz o Director"
+4. Se define el elemento PELICULA, tiene 0 o más entre estos hijos: "Actor o Actriz"; Un hijo "Director" y un hijo "Maquillaje" que puede estar o no
+5. Se define el elemento PELICULA con 0 o mucha: información del ordenador o el hijo "Actor"
+6. Se define el elemento PELICULA con los hijos: "Titulo y Genero"; Y 0 o más entre estos hijos: "Actor o Actriz o Narrador"
+7. Se define el elemento FICHA con los hijos: Nombre (1 o más), Apellido (1 o más), Dirección (0 o muchos), foto (0 o 1), TelFijo o TelMovil (0 o muchos)

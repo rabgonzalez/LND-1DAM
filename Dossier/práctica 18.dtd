@@ -1,0 +1,13 @@
+<!-- DTD created at Fri Oct 06 19:11:26 WEST 2023 with EditiX. Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT Agenda (Persona)>
+<!ELEMENT Persona (Nombre, Apellido, Email, Oficina, Telefono, Movil)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellido (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Oficina (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Movil (#PCDATA)>
+
+
+

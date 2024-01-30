@@ -1,0 +1,1 @@
+El único documento que no es válido es el 2 ya que utiliza 2 veces la etiqueta de Nombre, pero en la DTD tiene como máximo 1. La etiqueta Hermano es correcta ya que puede no estar o haber mas de una

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Fri Oct 06 19:16:37 WEST 2023 -->
+
+
+<!DOCTYPE centro SYSTEM “practica23.dtd”>
+<centro>
+<denominacion> “IES” </denominacion>
+<direccion> calle </direccion>
+<telefono> 112 </telefono>
+</centro>
+<alumno>
+<nombre> "Rubén" </nombre>
+<direccion> casa </direccion>
+<telefono> 112 </telefono>
+</alumno>
+<alumno>
+<nombre> “Alba” </nombre>
+<direccion> casa </direccion>
+<telefono> 112 </telefono>
+</alumno>
+

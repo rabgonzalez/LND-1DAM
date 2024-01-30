@@ -1,0 +1,6 @@
+<!-- DTD created at Fri Sep 22 19:17:12 WEST 2023 with EditiX. Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT libreria (Libro)*>
+<!ELEMENT Libro (Titulo, Autor)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Autor (#PCDATA)>

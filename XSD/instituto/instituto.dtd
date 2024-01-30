@@ -1,0 +1,15 @@
+<!-- DTD created at Mon Nov 06 15:40:23 WET 2023 with EditiX. Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT instituto (clase)+>
+
+<!ELEMENT clase (alumno)+>
+<!ATTLIST clase grupo CDATA #REQUIRED>
+<!ATTLIST clase curso CDATA #REQUIRED>
+
+<!ELEMENT alumno (nombre,apellidos)>
+<!ATTLIST alumno sexo (H|M) #REQUIRED>
+<!ATTLIST alumno cial CDATA #REQUIRED>
+
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+

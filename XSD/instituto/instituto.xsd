@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="instituto">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="clase" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="clase">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="alumno" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="grupo" type="xs:string" use="required"/>
+			<xs:attribute name="curso" type="xs:integer" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="alumno">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="apellidos" minOccurs="1" maxOccurs="1"/>
+			</xs:sequence>
+			<xs:attribute name="sexo" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:token">
+						<xs:enumeration value="H"/>
+						<xs:enumeration value="M"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="cial" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nombre" type="xs:string"/>
+	<xs:element name="apellidos" type="xs:string"/>
+</xs:schema>

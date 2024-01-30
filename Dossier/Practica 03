@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+<libro categoria="cocina">
+<autor>Karlos Arguiñano</autor>
+<titulo>Cocina fácil y rico</titulo>
+<editorial>Planeta</editorial>
+</libro>
+<libro categoria="novela">
+<autor>Yann Martel</autor>
+<titulo>La vida de Pi</titulo>
+<editorial>Destino</editorial>
+</libro>
+<libro categoria="programacion">
+<autor>Roberto Hernández</autor>
+<titulo>reglas básicas de Python</titulo>
+<editorial>Colhogar</editorial>
+</libro>
+<libro categoria="programacion">
+<autor>Max Kanat-Alexander</autor>
+<titulo>Code Simplicity</titulo>
+<editorial>O´Reilly</editorial>
+</libro>
+</libreria>

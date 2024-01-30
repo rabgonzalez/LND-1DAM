@@ -1,0 +1,6 @@
+En esta ATTLIST observamos que el elemento curso cuenta con 4 atributos:
+El atributo director es obligatorio y pide texto
+El atributo horario es opcional y pide un valor de la lista
+El atributo matricula pide un valor de la lista y tiene por defecto el valor “Ordinaria”
+EL atributo tasas pide texto y tiene como valor fijo “53€”
+

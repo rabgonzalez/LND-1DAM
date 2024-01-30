@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+<Libro>
+<Titulo>La vida de Pi</Titulo>
+<Autor>Yann Martel</Autor>
+</Libro>
+<Libro>
+<Titulo>Cocina fácil y rico</Titulo>
+<Autor>Karlos Arguiñano</Autor>
+</Libro>
+</libreria>

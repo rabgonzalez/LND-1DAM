@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+	<xs:element name="inventario">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="laboratorio" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:element name="laboratorio">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="personal" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="ultimainspeccion" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="planta" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="codigo" type="xs:integer" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:element name="planta">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombrecomun" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="nombrebotanico" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="clima" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="luz" minOccurs="0" maxOccurs="1"/>
+			</xs:sequence>
+			<xs:attribute name="venenosa" type="xs:string" use="optional" fixed="si"/>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:element name="nombre" type="xs:string"/>
+	<xs:element name="personal" type="xs:string"/>
+	<xs:element name="nombrecomun" type="xs:string"/>
+	<xs:element name="nombrebotanico" type="xs:string"/>
+	<xs:element name="ultimainspeccion" type="xs:string"/>
+	<xs:element name="clima" type="xs:string"/>
+	
+	
+	<xs:element name="luz">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Claridad"/>
+				<xs:enumeration value="Penumbra"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

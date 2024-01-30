@@ -1,0 +1,8 @@
+El elemento película cuenta con 6 hijos:
+titulo (1) / writer (1 o mas) / productor (1 o mas) / director (1 o mas) / actor (0 o mas) / comentarios (0 o 1)
+Y 4 atributos:
+El atributo tipo pide un valor de la lista y tiene por defecto el valor “drama”
+El atributo clasificacion pide un valor de la lista y tiene por defecto el valor “PG”
+El atributo review pide un valor de la lista y tiene por defecto el valor “3”
+EL atributo año es opcional y pide texto
+

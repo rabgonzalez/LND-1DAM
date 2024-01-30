@@ -1,0 +1,9 @@
+<!-- DTD created at Fri Oct 06 19:15:51 WEST 2023 with EditiX. Please insert an encoding attribute header for converting any DTD  -->
+
+<!ENTITY % contacto "direccion, telefono">
+<!ELEMENT alumno (nombre, %contacto;)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT centro (denominacion, %contacto;)>
+<!ELEMENT denominacion (#PCDATA)>
+
+

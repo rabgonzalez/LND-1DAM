@@ -1,0 +1,11 @@
+<!-- DTD created at Fri Oct 06 19:13:46 WEST 2023 with EditiX. Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT mensaje (autor, destinatarios+, asunto)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT destinatarios (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+
+<!ENTITY yo "Rubén Abreu González">
+<!ENTITY curso "Primero de Administración de Sistemas Informáticos en Red">
+
+
