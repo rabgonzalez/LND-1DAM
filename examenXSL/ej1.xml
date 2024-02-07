@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+<nombre>IES Puerto de la curz</nombre>
+<web>https:puerto</web>
+<ciclos>
+<ciclo id="ASIR">
+<nombre>Administracion</nombre>
+<grado>Superior</grado>
+<decretoTitulo año="2009"/>
+</ciclo>
+
+<ciclo id="DAW">
+<nombre>Desarrollo</nombre>
+<grado>Superior</grado>
+<decretoTitulo año="2010"/>
+</ciclo>
+
+<ciclo id="SMR">
+<nombre>Microinformaticos</nombre>
+<grado>Medio</grado>
+<decretoTitulo año="2008"/>
+</ciclo>
+</ciclos>
+</ies>

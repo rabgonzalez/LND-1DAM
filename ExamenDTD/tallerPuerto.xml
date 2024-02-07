@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Mon Nov 13 16:38:46 WET 2023 -->
+
+<!DOCTYPE tallerPuerto SYSTEM "tallermecanico.dtd">
+<tallerPuerto>
+<cliente DNI="78555555A" clientevip="No">
+<nombre>Javier Delgado</nombre>
+<coche tipo="Turismo">Opel Astra</coche>
+<coche tipo="Turismo" combustible="Diesel">Ford Mondeo</coche>
+</cliente>
+<cliente DNI="X43000000E" clientevip="Si">
+<nombre>Ana Peroni</nombre>
+<coche tipo="Todoterreno" combustible="Diesel">Toyota Land Cruiser</coche>
+</cliente>
+</tallerPuerto>

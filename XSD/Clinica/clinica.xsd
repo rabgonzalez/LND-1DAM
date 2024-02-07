@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XSD document created with EditiX XML Editor (http://www.editix.com) at Tue Nov 14 15:38:01 WET 2023 -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="clinicaveterinaria">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Cliente" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="codigo" type="xs:double" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Cliente">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nombre" type="nombreType" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="apellidos" type="nombreType" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="animal" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:simpleType name="nombreType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="animal">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="perro" type="animalType"/>
+				<xs:element name="reptil" type="animalType"/>
+				<xs:element name="gato" type="animalType"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="animalType">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="edad" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="raza" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="chip" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="sexo" type="sexoType"/>
+		<xs:attribute name="vacunado" fixed="true" use="optional"/>
+	</xs:complexType>
+	
+	<xs:simpleType name="sexoType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="H"/>
+			<xs:enumeration value="M"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
