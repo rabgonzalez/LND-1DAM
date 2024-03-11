@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <style>
+            fieldset {
+                background-color: rgb(193, 223, 233);
+            }
+
+            input:hover {
+                background-color: lightsalmon;
+            }
+        </style>
+        <h1>Document</h1>
+        </head>
+    <body>
+        <form>
+            <fieldset>
+            <label for="iname">Nombre:</label><br>
+            <input id="iname" type="text" name="firstname">
+            <br>
+            <label for="ilastname">Apellidos:</label><br>
+            <input id="ilastname" type="text" name="lastname">
+            <br><br>
+            <b>Color</b><br>
+            <label for="red">Rojo</label>
+            <input type="radio" id="red" name="color"><br>
+            <label for="green">Verde</label>
+            <input type="radio" name="color" id="green"><br>
+            <label for="blue">Azul</label>
+            <input type="radio" name="color" id="blue"><br>
+            <br>
+            <input type="submit" value="Soy un botón"></input>
+            <br><br>
+            <label for="rojo">Checkbox</label>
+            <input type="checkbox" id="rojo">
+            <br><br>
+            <input type="button" onclick="alert('Hola')" value="botón">
+            <br><br>
+            <input type="datetime-local">
+            <br><br>
+            <input type="color">
+            <br><br>
+            <input type="number">
+            <br><br>
+            <input type="range" min="0" max="100">
+            <br><br>
+            <input type="submit" value="Submit">
+            <br><br>
+            <select multiple>
+                <option>Rojo</option>
+                <option>Amarillo</option>
+                <option>Verde</option>
+                <option selected>Azul</option>
+            </select> 
+            </fieldset>
+        </form>
+    </body>
+</html>
