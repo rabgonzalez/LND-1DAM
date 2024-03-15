@@ -1,0 +1,21 @@
+/* Estilos de navegacion */
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.menu{
+    width: 100%;
+    background-color: peru;
+}
+
+nav a{
+    background-color: #9b5d17;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+nav ul{
+    list-style: none;
+}
