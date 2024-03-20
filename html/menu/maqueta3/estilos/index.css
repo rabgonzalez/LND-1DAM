@@ -1,0 +1,38 @@
+
+body {
+    border: 2px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 100%; height: 100%
+}
+
+header{
+    float: left;
+    text-align: center;
+    background-color: peru;
+    width: 100%; height: 80px;
+}
+
+nav{
+    float: left;
+    background-color: orange;
+    width: 100%; height: 30px;
+}
+
+main article{
+    float: left;
+    background-color: lightslategray;
+    width: 50%; height: 150px;
+}
+
+main section{
+    float: left;
+    background-color: white;
+    width: 50%; height: 150px;;
+}
+
+footer{
+    float: left;
+    background-color: peru;
+    width: 100%; height: 80px;;
+}

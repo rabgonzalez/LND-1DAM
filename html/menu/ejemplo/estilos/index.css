@@ -1,0 +1,37 @@
+/* Estilos de navegacion */
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.menu>li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+li ul{
+    display: none;
+}
+
+nav a{
+    background-color: peru;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 2px 10px;
+}
+
+nav a:hover{
+    background-color: rgb(80, 50, 20);
+    color: white;
+    transition: .5s;
+}
+
+nav ul{
+    list-style: none;
+}
+
+li:hover>ul{
+    display: block;
+}

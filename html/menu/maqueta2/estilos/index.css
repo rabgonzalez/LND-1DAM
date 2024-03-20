@@ -1,0 +1,56 @@
+body{
+    border: 2px;
+    border-style: solid;
+    width: 100%; height: 100%;
+}
+
+header{
+    background-color: black; color: white;
+    width: 20%; height: 80px;
+    float: left;
+}
+
+nav{
+    background-color: grey;
+    width: 80%; height: 80px;
+    float: left;
+}
+
+main{
+    clear: left;
+    background-color: aquamarine;
+    width: 100%; height: 400px;
+}
+
+footer{
+    background-color: cadetblue;
+    width: 100%; height: 80px;
+}
+
+main h2{
+    text-align: center;
+}
+
+main section{
+    background-color: white;
+    width: 80%; height: 100px;
+    margin-left: 10%;
+}
+
+main article{
+    text-align: center;
+    float: left;
+    background-color: white;
+    width: 20%; height: 100px;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+footer article{
+    text-align: center;
+    float: left;
+    background-color: white;
+    width: 20%; height: 50px;
+    margin-top: 15px;
+    margin-left: 10%;
+}
