@@ -1,0 +1,29 @@
+body{
+    border: 2px;
+    border-style: solid;
+    width: 70%;
+}
+
+header{
+    text-align: center;
+}
+
+.accesos-directos{
+    border: 1px;
+    border-style: solid;
+    float: left;
+    height: 400px;
+    width: 15%;
+}
+
+main{
+    border: 1px;
+    border-style: solid;
+    height: 400px;
+    width: 100%; 
+    background-color: rgba(173, 216, 230, 0.578);
+}
+
+footer{
+    text-align: center;
+}

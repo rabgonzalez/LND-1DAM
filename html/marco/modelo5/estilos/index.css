@@ -1,0 +1,57 @@
+body{
+    border: 2px;
+    border-style: solid;
+    width: 70%;
+}
+
+header{
+    text-align: center;
+}
+
+.accesos-directos{
+    border: 1px;
+    border-style: solid;
+    float: left;
+    height: 400px;
+    width: 15%;
+}
+
+main{
+    border: 1px;
+    border-style: solid;
+    height: 400px;
+    width: 100%; 
+    background-color: rgba(173, 216, 230, 0.578);
+}
+
+.imagen{
+    float: left;
+    border: 1px;
+    border-style: solid;
+    height: 40%;
+    margin-left: 40px;
+    background-color: white;
+}
+
+.categorias{
+    border: 1px;
+    border-style: solid;
+    margin-left: 40%;
+    width: 30%; 
+    height: 320px;
+    background-color: white;
+}
+
+nav{
+    float: right;
+    border: 1px;
+    border-style: solid;
+    margin-right: 10%;
+    height: 40%; 
+    width: 15%;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+}
