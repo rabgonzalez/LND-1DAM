@@ -1,0 +1,16 @@
+header>iframe{
+    height: 180px;
+    width: 100%;
+}
+
+nav>iframe{
+    float: left;
+    height: 500px;
+    width: 20%;
+}
+
+main>iframe{
+    float: left;
+    height: 500px;
+    width: 78%;
+}
