@@ -5,12 +5,19 @@ header>iframe{
 
 nav>iframe{
     float: left;
-    height: 500px;
+    height: 1000px;
     width: 20%;
 }
 
 main>iframe{
-    float: left;
-    height: 500px;
-    width: 78%;
+    height: 1000px;
+    width: 79%;
+}
+
+.bienvenida{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
 }
