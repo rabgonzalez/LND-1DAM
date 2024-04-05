@@ -18,7 +18,8 @@ header>iframe{
     border: 1px;
     border-style: solid;
     border-color: grey;
-    border-radius: 10%;
+    border-radius: 15%;
+    padding: 3px;
 }
 
 .boton:hover{

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header><h3>Rubén Abreu González</h3></header>
+    <fieldset>
+        <legend>Datos del propietario</legend>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre">
+        <br>
+        <label>Sexo:</label>
+        <input type="radio" id="Hombre" name="Genero" checked>
+        <label for="Hombre">Hombre</label>
+        <input type="radio" id="Mujer" name="Genero">
+        <label for="Hombre">Mujer</label>
+    </fieldset>
+    <fieldset>
+        <legend>Datos del vehículo</legend>
+        <label for="Marca/modelo">Marca/modelo:</label>
+        <input type="text" name="Marca/modelo">
+        <br>
+        <label for="Matrícula">Matrícula:</label>
+        <input type="text" name="Matrícula">
+        <br>
+        <label for="Características">Características:</label>
+        <select multiple name="Características">
+            <option>Utilitario</option>
+            <option>Todo Terreno</option>
+            <option>Alta gama</option>
+        </select>
+        <br>
+        Otros datos:
+        <br>
+        <input type="checkbox" name="Servofrenos" checked>
+        <label for="Servofrenos">Servofrenos</label>
+        <input type="checkbox" name="Elevalunas" checked>
+        <label for="Elevalunas">Elevalunas</label>
+        <input type="checkbox" name="Remolque">
+        <label for="Remolque">Remolque</label>
+    </fieldset>
+    <button onclick="alert('Eres gei')">enviar</button>
+</body>
+</html>
