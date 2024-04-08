@@ -1,0 +1,40 @@
+table{
+    background-color: peachpuff;
+    border: 10px;
+    border-style: outset;
+    border-color: darkgray;
+}
+
+.cabecera{
+    background-color: orange;
+    color: green;
+}
+
+.euro_alineadoDcha{
+    background-color: rgb(86, 86, 86);
+}
+
+.dolar_alineadoDcha{
+    background-color: gray;
+}
+
+.libra_alineadoDcha{
+    background-color: darkgray;
+}
+
+.yen_alineadoDcha{
+    background-color: lightgray;
+}
+
+tr{
+    background-color: cyan;
+}
+
+tr:nth-child(even){
+    background-color: lightgreen;
+}
+
+td{
+    border: 1px;
+    border-style: solid;
+}

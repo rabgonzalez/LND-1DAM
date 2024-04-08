@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    padding: 50px;
+    border: 1px;
+    border-style: dotted;
+    background-color: #FFFFCC;
+}
+
+h2{
+    color: green;
+    font-size: 15px;
+    padding: 20px;
+}
+
+h3{
+    font-size: 10px;
+    background-color: #FFCC99;
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: #FF9900;
+}
+
+h4{
+    background-color: grey;
+}
+
+li{
+    color: #336699;
+}
+
+p{
+    color: #CC3300;
+    background-color: #A9F5F2;
+}
+
+b{
+    border: 1px;
+    border-style: solid;
+    border-color: grey;
+}
