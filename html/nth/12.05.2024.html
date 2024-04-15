@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+p:nth-of-type(2n) {
+    background: red;
+}
+
+p:nth-child(2n) {
+    border: blue 10px solid;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/></head>
+<body>
+<p>Este párrafo es el primero, por lo que nunca será coloreado por ningún nth</p>
+<p>El nth-of-type colorea el fondo de rojo por cada 2 p siempre y cuando estos p sean consecutivos</p>
+<div>Por lo que aunque haya un div en medio de 2 p estos serán afectados </div>
+<p>Luego tenemos el nth-child que siempre rodea el p con un rectangulo azul por cada 2 p</p>
+<div>Por lo que si hay un div en medio de 2 p este no cuenta</div>
+<p>Parrafo 5, hijo8</p>
+<p>Parrafo 6, hijo9</p>
+<p>Parrafo 7, hijo10</p>
+</body>
+</html>
