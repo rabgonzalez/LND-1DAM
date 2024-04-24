@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="Ruben Abreu Gonzalez"/>  <!-- PONER AQUÍ EL NOMBRE DEL AUTOR!!!!   -->
+		<title>this</title>
+		<style type="text/css" >
+			.contenedor{
+				text-indent: 40px;
+				font-family: Verdana, Arial;
+				background-color: orange;
+				height: 550px;
+				width: 550px;
+				border: 15px;
+				border-style: outset;
+				border-color: grey;
+			}
+
+			.imagen{
+				float: left;
+			}
+
+			.letraCapital::first-letter{
+				float: left;
+				border: 1px;
+				border-style: solid;
+				border-color: black;
+				color: grey;
+				font-size: 60px;
+				font-family: Times;
+				padding-left: 10px;
+				padding-right: 8px;
+				padding-bottom: 20px;
+				padding-top: 20px;
+
+			}
+
+			.letraCapital{
+				text-indent: 0px;
+			}
+
+
+			/*
+			contenedor es de 550px, tiene borde gris color de fondo naranja
+			El tipo de letra por defecto es Verdana y si no está disponible, Arial
+			La letra L grande es del tipo Times y tiene color gris
+			
+			Se deben conocer los selectores
+			:first-letter       (selecciona la primera letra )
+			:not()             (selecciona lo que no cumpla con el selector entre paréntesis)
+			
+			*/
+
+		</style>
+	</head>
+	<body>
+
+		<div class="contenedor">
+			<img class="imagen" src="iespuerto.png" alt="Logo Puerto Cruz" />
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+			</p>
+			<p> Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p class="letraCapital"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+
+
+
+	</body>
+</html>

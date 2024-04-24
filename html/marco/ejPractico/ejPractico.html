@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+
+    legend{
+        background-color: white;
+        border: 1px;
+        border-style: solid;
+    }
+
+    .DatosPersonales{
+        background-color: lightgrey;
+    }
+
+    .FormaAcceso{
+        background-color: bisque;
+    }
+
+    .DocumentosAdjuntados{
+        background-color: lightcoral;
+    }
+
+    .awad{
+        margin-left: 120px;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <h1>HOJA DE INSCRIPCIÓN</h1>
+    <h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+    <fieldset class="DatosPersonales">
+        <legend>Datos Personales</legend>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" name="Nombre">
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" id="Apellidos" name="Apellidos">
+        <label for="DNI">DNI:</label>
+        <input type="text" id="DNI" name="DNI">
+    </fieldset>
+
+    <fieldset class="FormaAcceso">
+        <legend>Forma de Acceso</legend><br>
+        <input type="radio" id="Direct">
+        <label for="Direct">Direct</label><br>
+        <input type="radio" id="Bachillerato LOGSE">
+        <label for="Bachillerato LOGSE">Bachillerato LOGSE. Modalidad</label>
+        <input type="text" id="Bachillerato LOGSE"><br>
+        <input type="radio" id="Bachillerato Experimental">
+        <label for="Bachillerato Experimental">Bachillerato Experimental</label><br>
+        <input type="radio" id="COU">
+        <label for="COU">COU. Opción</label>
+        <input type="text" id="COU"><br>
+        <input type="radio" id="FP2">
+        <label for="FP2">FP2</label><br>
+        <input type="radio" id="Otros">
+        <label for="Otros">Otros (especifique)</label>
+        <input type="text" id="Otros"><br>
+        <input type="radio" id="Prueba Libre">
+        <label for="Prueba Libre">Prueba Libre</label>
+    </fieldset>
+
+    <fieldset class="DocumentosAdjuntados">
+        <legend>Documentos Adjuntados</legend>
+        <input type="checkbox" id="DNI">
+        <label for="DNI">Fotocopia DNI</label>
+        <input type="checkbox" id="Certificado" class="awad">
+        <label for="Certificado">Certificado Académico</label><br>
+        <input type="checkbox" id="Otros">
+        <label for="Otros">Otros documentos (especifique)</label>
+        <input type="text" id="Otros">
+    </fieldset>
+    <button onclick="alert('Enviado')">Enviar Solicitud</button>
+</body>
+</html>
