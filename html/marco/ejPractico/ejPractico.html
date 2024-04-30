@@ -35,38 +35,92 @@
     button{
         margin-top: 10px;
     }
+
+    .Personal{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 10px;
+    }
+
+    .Localidad{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 10px;
+    }
+
+    .Direccion{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 10px;
+    }
 </style>
 <body>
     <h1>HOJA DE INSCRIPCIÓN</h1>
     <h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
     <fieldset class="DatosPersonales">
         <legend>Datos Personales</legend>
-        <label for="Nombre">Nombre:</label>
-        <input type="text" id="Nombre" name="Nombre">
-        <label for="Apellidos">Apellidos:</label>
-        <input type="text" id="Apellidos" name="Apellidos">
-        <label for="DNI">DNI:</label>
-        <input type="text" id="DNI" name="DNI">
+        <div class="Personal">
+            <div class="Formulario">
+                <p>Nombre:</p>
+                <input type="text" id="Nombre">
+            </div>
+            <div class="Formulario">
+                <p>Apellidos:</p>
+                <input type="text" id="Apellidos">
+            </div>
+            <div class="Formulario">
+                <p>DNI:</p>
+                <input type="text" id="DNI">
+            </div>
+        </div>
+        <div class="Localidad">
+            <div class="Formulario">
+                <p>Localidad Nacimiento:</p>
+                <input type="text" id="Localidad">
+            </div>
+            <div class="Formulario">
+            <p>Provincia:</p>
+            <select>
+                <option>Elija una Provincia</option>
+                <option>Madrid</option>
+                <option>Santa Cruz</option>
+            </select>
+            </div>
+            <div class="Formulario">
+                <p>Fecha de Nacimiento:</p>
+                <input type="date" id="FechaNacimiento">
+            </div>
+        </div>
+        <div class="Direccion">
+            <div class="Formulario">
+                <p>Direccion:</p>
+                <input type="text" id="Direccion">
+            </div>
+            <div class="Formulario">
+                <p>Codigo Postal:</p>
+                <input type="text" id="CodPostal">
+            </div>
+        </div>
     </fieldset>
 
     <fieldset class="FormaAcceso">
         <legend>Forma de Acceso</legend><br>
-        <input type="radio" id="Direct">
+        <input type="radio" id="Direct" name="Eleccion">
         <label for="Direct">Direct</label><br>
-        <input type="radio" id="Bachillerato LOGSE">
+        <input type="radio" id="Bachillerato LOGSE" name="Direct">
         <label for="Bachillerato LOGSE">Bachillerato LOGSE. Modalidad</label>
-        <input type="text" id="Bachillerato LOGSE"><br>
-        <input type="radio" id="Bachillerato Experimental">
+        <input type="text" id="Bachillerato LOGSE" name="Direct"><br>
+        <input type="radio" id="Bachillerato Experimental" name="Direct">
         <label for="Bachillerato Experimental">Bachillerato Experimental</label><br>
-        <input type="radio" id="COU">
+        <input type="radio" id="COU" name="Direct">
         <label for="COU">COU. Opción</label>
-        <input type="text" id="COU"><br>
-        <input type="radio" id="FP2">
+        <input type="text" id="COU" name="Direct"><br>
+        <input type="radio" id="FP2" name="Direct">
         <label for="FP2">FP2</label><br>
-        <input type="radio" id="Otros">
+        <input type="radio" id="Otros" name="Direct">
         <label for="Otros">Otros (especifique)</label>
         <input type="text" id="Otros"><br>
-        <input type="radio" id="Prueba Libre">
+        <input type="radio" id="Prueba Libre" name="Eleccion">
         <label for="Prueba Libre">Prueba Libre</label>
     </fieldset>
 

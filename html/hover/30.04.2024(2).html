@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            animation-name: mymove;
+            animation-duration: 4s;
+            position: relative;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        div:nth-child(1){
+            background-color: red;
+        }
+
+        div:nth-child(2){
+            background-color: green;
+        }
+
+        div:nth-child(3){
+            background-color: blue;
+        }
+
+        div:nth-child(4){
+            background-color: yellow;
+        }
+
+        div:nth-child(5){
+            background-color: purple;
+        }
+
+        #div1{
+            animation-timing-function: linear;
+        }
+        #div2{
+            animation-timing-function: ease;
+        }
+        #div3{
+            animation-timing-function: ease-in;
+        }
+        #div4{
+            animation-timing-function: ease-out;
+            
+        }
+        #div5{
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes mymove{
+            from{
+                left: 0px;
+            }
+            to{
+                left: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">Linear</div>
+    <div id="div2">ease</div>
+    <div id="div3">ease-in</div>
+    <div id="div4">ease-out</div>
+    <div id="div5">ease-in-out</div>
+</body>
+</html>
