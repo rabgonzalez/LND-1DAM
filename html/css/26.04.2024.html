@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="author" content=""/>
+        <title></title>
+        <style type="text/css" >
+            /* cada elemento li tiene un borde de 1px
+            Para radio personalizado de cada elemento se dispone de: border-top-left-radius, border-bottom-left-radius etc;
+            El ancho es de 500px
+            Los colores de fondo son:
+            el que le pase por encima el ratón: #39DE77
+            square: #C6BD2D, lower-roman: #677EC1, decimal-leading-zero: #5B886B
+            lower-roman tiene modificado el margen izquierdo y con opacidad del 80%
+            decimal-leading-zero tiene modificado el padding izquierdo
+            */
+
+            .none{
+                border: 3px solid;
+                border-color: blue;
+                width: 500px;
+                border-top-left-radius: 20%;
+                border-bottom-left-radius: 20%;
+                list-style: none;
+            }
+
+            li{
+                border: 1px solid;
+            }
+
+            li:hover{
+                background-color: #39DE77;
+            }
+
+            .square{
+                display: none;
+                list-style: square;
+            }
+
+            li:hover .square{
+                display: block;
+                background-color: #C6BD2D;
+
+            }
+
+            .lower-roman{
+                display: none;
+                list-style: lower-roman;
+            }
+
+            li:hover .lower-roman{
+                margin-left: 100px;
+                display: block;
+                background-color: #677EC1;
+                opacity: 80%;
+            }
+
+            .decimal-leading-zero{
+                display: none;
+                list-style: decimal-leading-zero;
+            }
+
+            li:hover .decimal-leading-zero{
+                padding-left: 100px;
+                display: block;
+                background-color: #5B886B;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="none">
+            <li>Estilo de lista actual: none</li>
+            <li>Estilo ul square
+                <ul class="square">
+                  <li>Estilo de lista actual: square</li>
+                  <li>Elemento</li>
+                  <li>Elemento</li>
+                </ul>
+            </li>
+            <li>Estilo ol lower-roman
+                <ol class="lower-roman">
+                      <li>Estilo de lista actual: lower-roman</li>
+                      <li>Elemento</li>
+                      <li>Elemento</li>
+                </ol>
+            </li>
+            <li>Estilo ol decimal-leading-zero
+                <ol class="decimal-leading-zero">
+                  <li>Estilo de lista actual: decimal-leading-zero</li>
+                  <li>Elemento</li>
+                  <li>Elemento</li>
+                </ol>
+            </li>
+        </ul>
+
+    </body>
+</html>
