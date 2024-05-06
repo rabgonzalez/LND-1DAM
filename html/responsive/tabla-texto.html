@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Tabla a texto</title>
+        
+        <style type="text/css">
+            .calificaciones{
+                margin: auto;
+                background-color: lightgreen;
+                border: 10px solid grey;
+                border-style: inset;
+            }
+
+            .tabla-mobile{
+                display:none;
+            }
+
+            .tabla-mobile .fila .header, .tabla-mobile .fila{
+                display: flex;
+            }
+
+            .tabla-mobile .fila .columna .header{
+                border: 1px solid;
+                border-bottom: none;
+                border-right: none;
+                padding: 10px;
+                width: 100%;
+            }
+
+            .tabla-mobile .fila .columna .contenido{
+                border: 1px solid;
+                border-left: none;
+                border-bottom: none;
+                padding: 10px;
+                width: 100%;
+            }
+
+            .tabla-mobile .fila:nth-of-type(odd) .columna .header,
+            .tabla-mobile .fila .columna .contenido{
+                background-color: lightcoral;
+            }
+
+            @media (max-width: 800px){
+                .tabla-mobile{
+                    margin: auto;
+                    background-color: lightgreen;
+                    border: 3px solid grey;
+                    border-style: inset;
+                    display: block;
+                }
+                .calificaciones{
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <table border="1px" class="calificaciones">
+            <tr>
+                <th> Nombre</th> <th> Apellido1</th> <th> Apellido2 </th> <th> LND </th> <th> BAE </th> <th> PRO </th>
+            </tr>
+            <tr>
+                <td> María Cristina</td> <td> Martínez</td> <td> Abellanosa</td><td> 8.25 </td> <td> 7.25 </td> <td> 6.25 </td>
+            </tr>
+            <tr>
+                <td> Sara</td> <td> Delgado</td> <td>Alemán </td><td> 9.25 </td> <td> 9.25 </td> <td> 7.25 </td>
+            </tr>
+            <tr>
+                <td> Lidia Ángeles</td> <td> González</td> <td> García</td><td> 9.99 </td> <td> 9.88 </td> <td> 8.25 </td>
+            </tr>
+        </table>
+
+        <div class="tabla-mobile">
+            <div class="fila">
+                <div class="columna">
+                    <div class="header"><b>Nombre:</b></div>
+                    <div class="contenido">María Cristina</div>
+                    <div class="header"><b>Apellido1:</b></div>
+                    <div class="contenido">Martínez</div>
+                    <div class="header"><b>Apellido2:</b></div>
+                    <div class="contenido">Abellanosa</div>
+                    <div class="header"><b>LND:</b></div>
+                    <div class="contenido">8.25</div>
+                    <div class="header"><b>BAE:</b></div>
+                    <div class="contenido">7.25</div>
+                    <div class="header"><b>PRO:</b></div>
+                    <div class="contenido">6.25</div>
+                </div>
+                <div class="columna">
+                    <div class="header"><b>Nombre:</b></div>
+                    <div class="contenido">María Cristina</div>
+                    <div class="header"><b>Apellido1:</b></div>
+                    <div class="contenido">Martínez</div>
+                    <div class="header"><b>Apellido2:</b></div>
+                    <div class="contenido">Abellanosa</div>
+                    <div class="header"><b>LND:</b></div>
+                    <div class="contenido">8.25</div>
+                    <div class="header"><b>BAE:</b></div>
+                    <div class="contenido">7.25</div>
+                    <div class="header"><b>PRO:</b></div>
+                    <div class="contenido">6.25</div>
+                </div>
+                <div class="columna">
+                    <div class="header"><b>Nombre:</b></div>
+                    <div class="contenido">María Cristina</div>
+                    <div class="header"><b>Apellido1:</b></div>
+                    <div class="contenido">Martínez</div>
+                    <div class="header"><b>Apellido2:</b></div>
+                    <div class="contenido">Abellanosa</div>
+                    <div class="header"><b>LND:</b></div>
+                    <div class="contenido">8.25</div>
+                    <div class="header"><b>BAE:</b></div>
+                    <div class="contenido">7.25</div>
+                    <div class="header"><b>PRO:</b></div>
+                    <div class="contenido">6.25</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
