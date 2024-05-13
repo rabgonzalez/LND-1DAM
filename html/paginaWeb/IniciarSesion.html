@@ -6,6 +6,50 @@
     <title>Iniciar Sesion</title>
 </head>
 <body>
-    Hola
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <header><h3>Registrate</h3></header>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre"><br>
+        <label for="Nombre">Apellido/s:</label>
+        <input type="text" name="Nombre">
+        <br>
+        <label>Sexo:</label>
+        <input type="radio" id="Hombre" name="Genero">
+        <label for="Hombre">Hombre</label>
+        <input type="radio" id="Mujer" name="Genero">
+        <label for="Hombre">Mujer</label>
+        <input type="radio" id="Otro" name="Genero" checked>
+        <label for="Hombre">Otro</label>
+    </fieldset>
+    <fieldset>
+        <legend>Datos cuenta</legend>
+        <label for="Marca/modelo">Correo electrónico:</label>
+        <input type="text" name="Correo">
+        <br>
+        <label for="Matrícula">Contraseña:</label>
+        <input type="password" name="Matrícula">
+        <br>
+        <br>
+        Otros datos:
+        <br>
+        <input type="checkbox" name="Servofrenos"checked>
+        <label for="Servofrenos">Servofrenos</label>
+        <input type="checkbox" name="Elevalunas" checked>
+        <label for="Elevalunas">Elevalunas</label>
+        <input type="checkbox" name="Remolque">
+        <label for="Remolque">Remolque</label>
+    </fieldset>
+    <button onclick="alert('Enviado')">enviar</button>
+</body>
+</html>
 </body>
 </html>
