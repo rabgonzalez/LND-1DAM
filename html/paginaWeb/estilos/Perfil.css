@@ -1,0 +1,77 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+nav{
+    position: sticky;
+    top : 0;
+    z-index: 2;
+}
+
+.menu>li{
+    list-style: none;
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+
+.menu ul{
+    display: none;
+}
+
+.menu li:hover>ul{
+    display: block;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    padding: 10px;
+}
+
+.fondo{
+    height: 400px;
+    background: url(../images/fondo-telesforo.jpg) center center/cover no-repeat fixed;
+    filter: blur(2px);
+}
+
+.perfil{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    border-radius: 100%;
+    border: 2px white solid;
+}
+
+iframe{
+    float: right;
+}
+
+a{
+    width: 100%;
+}
+
+.menu a:hover{
+    border: 1px solid white;
+    transition: .4s;
+}
+
+footer{
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+}
+
+footer img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
