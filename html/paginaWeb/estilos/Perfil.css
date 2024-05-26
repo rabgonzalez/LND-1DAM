@@ -34,21 +34,58 @@ nav{
 }
 
 .fondo{
-    height: 400px;
+    height: 500px;
     background: url(../images/fondo-telesforo.jpg) center center/cover no-repeat fixed;
     filter: blur(2px);
 }
 
+.descripcion{
+    margin-left: 7%;
+    list-style: none;
+    width: 40%;
+    float: left;
+}
+
+.descripcion li{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    line-height: 100px;
+    border: 10px solid lightsteelblue;
+    border-radius: 20px;
+}
+
+.descripcion li:hover{
+    border-color: blue;
+    box-shadow: 0 0 20px blue;
+}
+
 .perfil{
+    position: relative;
     display: flex;
     margin: auto;
-    width: 200px;
+    width: 250px;
     border-radius: 100%;
     border: 2px white solid;
 }
 
-iframe{
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ubicacion{
+    margin-right: 7%;
     float: right;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 10px solid lightsteelblue;
+}
+
+.ubicacion:hover{
+    border-color: blue;
+    box-shadow: 0 0 20px blue;
 }
 
 a{

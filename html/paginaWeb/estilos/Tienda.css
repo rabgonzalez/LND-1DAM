@@ -47,7 +47,7 @@ header{
     margin-right: 50px;
     float: right;
     width: 150px;
-    height: 40px;
+    height: 60px;
 }
 
 .boton{
@@ -58,8 +58,8 @@ header{
     border: 1px;
     border-style: solid;
     border-color: grey;
-    border-radius: 15%;
-    padding: 3px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .boton:hover{
@@ -71,7 +71,7 @@ header{
 .article{
     margin: auto;
     text-align: center;
-    background-color: lightblue;
+    background-color: lightsteelblue;
     margin-top: 20px;
     width: 90%;
 }
