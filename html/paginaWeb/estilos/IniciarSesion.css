@@ -22,7 +22,7 @@ main{
     margin: auto;
     padding: 30px;
     background-color: white;
-    width: 30%;
+    width: 33%;
     height: 550px;
     margin-top: 100px;
     box-shadow: 10px 10px 30px gray;
@@ -33,7 +33,7 @@ main{
 @keyframes registrarse {
     0%{
         opacity: 0;
-        transform: scale(0.6);
+        transform: scale(0.4);
     }
     100%{
         opacity: 1;
