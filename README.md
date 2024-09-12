@@ -1,5 +1,5 @@
 # LND
-Repositorio dedicado a la asignatura de Lenguaje de Marcas de 1DAM
+Repositorio dedicado a la asignatura de Lenguaje de Marcas de 1ºDAM en 2023-24
 
 ## Índice
 - [Dossier](./Dossier/)
